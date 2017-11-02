@@ -1,0 +1,14 @@
+#id1{
+  color:blue;
+  font-size: 24px;
+}
+p{
+  color: red;
+}
+.center{
+  color:green;
+}
+.bluev p{
+  color: blue;
+  font-family: Verdana;
+}
