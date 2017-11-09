@@ -4,32 +4,33 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
-    <link href="https://eightblades.github.io/css-exercises/ref.css" rel="stylesheet" type="text/css" />
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Lato:900|Philosopher|Spectral+SC" rel="stylesheet">
   </head>
   <body>
     <script src="index.js"></script>
-    <h1 class="center" id="PH">HTML Reference Page</h1>
+    <h1 class="center hff" id="PH">HTML Reference Page</h1>
     
     
     <a href="https://eightblades.github.io">Home Page</a>
     
     
-    <h2>Reference Table</h2>
+    <h2 class="hff">Reference Table</h2>
     <table>
       <tr>
-        <th>Name</th>
-        <th>Start Tag</th>
-        <th>End Tag</th>
-        <th>Example</th>
+        <th class="hf">Name</th>
+        <th class="hf">Start Tag</th>
+        <th class="hf">End Tag</th>
+        <th class="hf">Example</th>
       </tr>
       <tr>
-        <td><a href="#P1">HTML</a></td>
+        <td><a href="#P13">HTML</a></td>
         <td>&lt;html&gt;</td>
         <td>&lt;/html&gt;</td>
         <td>&lt;html&gt;&lt;body&gt;&lt;/body&gt;&lt;/html&gt;</td>
       </tr>
       <tr>
-        <td><a href="#P1">Head</a></td>
+        <td><a href="#P14">Head</a></td>
         <td>&lt;head&gt;</td>
         <td>&lt;/head&gt;</td>
         <td>&lt;head&gt;&lt;title&gt;&lt;/title&gt;&lt;/head&gt;</td>
@@ -41,7 +42,7 @@
         <td>&lt;title&gt;Reference Page&lt;/title&gt;</td>
       </tr>
       <tr>
-        <td><a href="#P1">Body</a></td>
+        <td><a href="#P15">Body</a></td>
         <td>&lt;body&gt;</td>
         <td>&lt;/body&gt;</td>
         <td>&lt;body&gt;&lt;p&gt;This is a Paragraph&lt;/p&gt;&lt;/body&gt;</td>
@@ -116,21 +117,55 @@
 
 
 
-    <h2 id="P1" class="head">What consist of a HTML Page</h2>
+    <h2 id="P1" class="head">What Consist of a HTML Page</h2>
     <p>A vaild HTML page needs &lt;DOCTYPE html&gt; to indicate that the document is a html page. Additionally, you need &lt;head&gt;&lt;/head&gt;to show where you code is before the body tag and after the html tag where you have your metadta.This Data is no displayed. Next, you need a &lt;html&gt;&lt;/html&gt; to show where your html code is. After that, you have &lt;body&gt;&lt;/body&gt; inside your &lt;html&gt;&lt;/html&gt; defines the body of you html page and includes the contents of you html page such as text, hyperlinks, images, tables, lists, etc.</p>
-    <div>
-      <p>W3Schools links:</p>
-      <a href="https://www.w3schools.com/html/html_intro.asp">HTML</a>
-      <br>
-      <a href="https://www.w3schools.com/html/html_head.asp">Head</a> 
-      <br>
-      <a href="https://www.w3schools.com/tags/tag_body.asp">Body</a>
-    </div>
     <br>
     <a href="#PH">Back to the Top</a>
 
 
 
+
+
+
+
+
+
+
+    <h2 id="P13" class="head">HTML</h2>
+    <p><b>Syntax:</b> &lt;html&gt;&lt;/html&gt;</p>
+    <p>This defines the file document and tells the browser it is an HTML file.</p>
+    <div class="ce">
+    <p><b>Code</b>:</p>
+    <p>&lt;html&gt;</p>
+    <p class="ti">&lt;h1&gt;header&lt;/h1&gt;</p>
+    <p>&lt;/html&gt;</p>
+    </div>
+    <div>
+      <b>W3Schools Reference</b> | <a href="https://www.w3schools.com/html/html_intro.asp">HTML</a> 
+    </div>
+    <br>
+    <a href="#PH">Back to the Top</a>    
+
+
+
+
+
+    <h2 id="P14" class="head">Head</h2>
+    <p><b>Syntax:</b> &lt;head&gt;&lt;/head&gt;</p>
+    <p>The head is under the html tag, but is before the body tag. The Head area is where you put the metadata(It is not displayed)</p>
+    <div class="ce">
+      <p><b>Code</b>:</p>
+      <p>&lt;html&gt;</p>
+      <p class="ti">&lt;head&gt;</p>
+      <p class="tii">[some code]</p>
+      <p class="ti">&lt;/head&gt;</p>
+      <p>&lt;/html&gt;</p>
+    </div>
+    <div>
+      <b>W3Schools Reference</b> | <a href="https://www.w3schools.com/tags/tag_head.asp">Head</a> 
+    </div>
+    <br>
+    <a href="#PH">Back to the Top</a>
 
 
 
@@ -138,12 +173,33 @@
 
 
     <h2 id="P2" class="head">Title</h2>
-    <p>The element tag for title is &lt;title&gt;&lt;/title&gt;.</p>
+    <p><b>Syntax:</b> &lt;title&gt;&lt;/title&gt;</p>
     <p>The title tag is used to set the title of your page. You will see this change my what it says on the tab above.</p>
-    <p class="example"><b>Example</b>: &lt;title&gt;Title Here&lt;/title&gt; wil make the title be "Title Here" as it is above</p>
+    <p class="example"><b>Rendering</b>: &lt;title&gt;Title Here&lt;/title&gt; wil make the title be "Title Here" as it is above</p>
     <title>Title Here</title>
     <div>
-      <a href="https://www.w3schools.com/tags/tag_title.asp">W3SChools-Titles</a>
+      <b>W3Schools Reference</b> | <a href="https://www.w3schools.com/tags/tag_title.asp">Titles</a>
+    </div>
+    <br>
+    <a href="#PH">Back to the Top</a>
+
+
+
+
+
+    <h2 id="P15" class="head">Body</h2>
+    <p><b>Syntax:</b> &lt;body&gt;&lt;/body&gt;</p>
+    <p>The body element tag is used to define the documents body and is also contains all the html contents such as text, hyperlinks, images, tables, lists, etc.</p>
+    <div class="ce">
+      <p><b>Code:</b></p>
+      <p>&lt;body&gt;</p>
+      <p class="ti">&lt;p&gt;</p>
+      <p class="tii">[some text]</p>
+      <p class="ti">&lt;/p&gt;</p>
+      <p>&lt;/body&gt;</p>
+    </div>
+    <div>
+      <b>W3Schools Reference</b> | <a href="https://www.w3schools.com/tags/tag_body.asp">Body</a>
     </div>
     <br>
     <a href="#PH">Back to the Top</a>
@@ -153,18 +209,20 @@
 
 
 
-
-
     <h2 id="P3" class="head">Headings</h2>
-    <p>The element tag for Headings is &lt;hn&gt;&lt;/hn&gt; where n is a number between 1 and 6. n will determine the size of your heading, 1 being the largest and 6 being the smallest.</p>
-    <p>This is used for creating headings or subtitles in documents</p>
+    <p><b>Syntax:</b> &lt;h1&gt;,&lt;h2&gt;,&lt;h3&gt;,&lt;h4&gt;,&lt;h5&gt;,&lt;h6&gt;</p>
+    <p>The element tag for Headings is &lt;hn&gt;&lt;/hn&gt; where n is a number between 1 and 6. n will determine the size of your heading, 1 being the largest and 6 being the smallest. This is used for creating headings or subtitles in documents</p>
     <div class="example">
-    <p><b>Example:</b></p>
-    <h1>&lt;h1&gt;&lt;/h1&gt; size heading</h1>
-    <h6>&lt;h6&gt;&lt;/h6&gt; size header</h6>
+    <p><b>Rendering:</b></p>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
     </div>
     <div>
-      <a href="https://www.w3schools.com/html/html_headings.asp">w3schools-Headings</a>
+      <b>W3Schools Reference</b> | <a href="https://www.w3schools.com/html/html_headings.asp">Headings</a>
     </div>
     <br>
     <a href="#PH">Back to the Top</a>
@@ -176,14 +234,14 @@
 
 
     <h2 id="P4" class="head">Paragraphs</h2>
-    <p>The paragraph tag is &lt;p&gt;&lt;/p&gt;</p>
+    <p><b>Syntax: </b>&lt;p&gt;&lt;/p&gt;</p>
     <p>Paragraphs are usually used for your main writing and paragraphs of text on you website.</p>
     <div class="example">
-    <p><b>Example:</b></p>
+    <p><b>Rendering:</b></p>
     <p>This is a paragraph</p>
     </div>
     <div>
-      <a href="https://www.w3schools.com/html/html_paragraphs.asp">w3schools-Paragraphs</a>
+      <b>W3Schools Reference</b> | <a href="https://www.w3schools.com/html/html_paragraphs.asp">Paragraphs</a>
     </div>
     <br>
     <a href="#PH">Back to the Top</a>
@@ -194,14 +252,14 @@
 
 
     <h2 id="P5" class="head">Breaks</h2>
-    <p>The break tag is &lt;br&gt;</p>
+    <p><b>Syntax:</b> &lt;br&gt;</p>
     <p>The break tag is used to make a break in the text because html doesn't read the return and page break you do yourself. </p>
     <div class="example">
-    <p><b>Example:</b></p>
+    <p><b>Rendering:</b></p>
     <p>The next sentence will be in the next line<br>Here</p>
     </div>
     <div>
-      <a href="https://www.w3schools.com/tags/tag_br.asp">w3schools-Breaks</a>
+      <b>W3Schools Reference</b> | <a href="https://www.w3schools.com/tags/tag_br.asp">Breaks</a>
     </div>
     <br>
     <a href="#PH">Back to the Top</a>
@@ -211,15 +269,15 @@
 
 
     <h2 id="P6" class="head">Lines</h2>
-    <p>The element tag for Lines are &lt;hr&gt;</p>
+    <p><b>Syntax:</b> &lt;hr&gt;</p>
     <p>Lines are used for creating horizontal lines to seperate the page into sections</p>
     <div class="example">
-    <p><b>Example:</b></p>
+    <p><b>Rendering:</b></p>
     An <hr> Example
     </div>
     <br>
     <div>
-      <a href="https://www.w3schools.com/tags/tag_hr.asp">w3schools-Lines</a>
+      <b>W3Schools Reference</b> | <a href="https://www.w3schools.com/tags/tag_hr.asp">Lines</a>
     </div>
     <br>
     <a href="#PH">Back to the Top</a>
@@ -229,10 +287,10 @@
 
 
     <h2 id="P7" class="head">Comments</h2>
-    <p>The Comments element tag is &lt;!--  --&gt;</p>
+    <p><b>Syntax:</b> &lt;!--   --&gt;</p>
     <p>The comment tag is used for commenting code or text on your page so that you know what each thing is for or you have code that you don't need, but you want to keep, you can just can comment it out</p>
     <div>
-      <a href="https://www.w3schools.com/html/html_comments.asp">w3schools-Comments</a>
+      <b>W3Schools Reference</b> | <a href="https://www.w3schools.com/html/html_comments.asp">Comments</a>
     </div>
     <br>
     <a href="#PH">Back to the Top</a>
@@ -243,7 +301,7 @@
 
 
     <h2 id="P8" class="head">Links</h2>
-    <p>The element tag is &lt;a&gt;&lt;/a&gt;</p>
+    <p><b>Syntax:</b> &lt;a&gt;&lt;/a&gt;</p>
     <p>Links are used for allowing navigation between pages or to other pages</p>
     <div class="example">
     <p><b>Exapmle:</b></p>
@@ -251,7 +309,7 @@
     </div>
     <br>
     <div>
-      <a href="https://www.w3schools.com/html/html_links.asp">w3schools-Links</a>
+      <b>W3Schools Reference</b> | <a href="https://www.w3schools.com/html/html_links.asp">Links</a>
     </div>
     <br>
     <a href="#PH">Back to the Top</a>
@@ -264,7 +322,7 @@
 
 
     <h2 id="P9" class="head">Images</h2>
-    <p>The element tag for an image is &lt;img&gt;</p>
+    <p><b>Syntax:</b> &lt;img&gt;</p>
     <p>The image tag is used for adding images to your page to make it look better</p>
     <div class="example">
     <p><b>Exapmle:</b></p> 
@@ -272,7 +330,7 @@
     </div>
     <br>
     <div>
-      <a href="https://www.w3schools.com/html/html_images.asp">w3schools-Images</a>
+      <b>W3Schools Reference</b> | <a href="https://www.w3schools.com/html/html_images.asp">Images</a>
     </div>
     <br>
     <a href="#PH">Back to the Top</a>
@@ -287,10 +345,10 @@
 
 
     <h2 id="P10" class="head">Lists</h2>
-    <p>The list tag are &lt;ul&gt;&lt;/ul&gt;,&lt;ol&gt;&lt;/ol&gt;, and each item has the tags &lt;li&gt;&lt;/li&gt;</p>
-    <p>List are used for when you want to list a number of elements in order with the &lt;ol&gt;&lt;/ol&gt; tags, or unordered with the &lt;ul&gt;&lt;/ul&gt; tags.</p>
+    <p><b>List Syntax:</b> &lt;ul&gt;&lt;/ul&gt;,&lt;ol&gt;&lt;/ol&gt;,&lt;li&gt;&lt;/li&gt;</p>
+    <p>&lt;ul&gt;&lt;/ul&gt; and &lt;ol&gt;&lt;/ol&gt; are for making the list and &lt;li&gt;&lt;/li&gt; for each item on the list. List are used for when you want to list a number of elements in order with the &lt;ol&gt;&lt;/ol&gt; tags, or unordered with the &lt;ul&gt;&lt;/ul&gt; tags.</p>
     <div class="example">
-    <p><b>Unordered List Exapmle:</b></p>
+    <p><b>Unordered List Rendering:</b></p>
     <ul>
       <li>Coffee</li>
       <li>Tea</li>
@@ -298,7 +356,7 @@
     </ul>
     </div>
     <div class="example">
-    <p><b>Ordered List Example:</b></p>
+    <p><b>Ordered List Rendering:</b></p>
     <ol>
       <li>Coffee</li>
       <li>Tea</li>
@@ -306,7 +364,7 @@
     </ol>
     </div>
     <div>
-      <a href="https://www.w3schools.com/html/html_lists.asp">w3schools-List</a>
+      <b>W3Schools Reference</b> | <a href="https://www.w3schools.com/html/html_lists.asp">List</a>
     </div>
     <br>
     <a href="#PH">Back to the Top</a>
@@ -319,15 +377,15 @@
     
     
     <h2 id="P11" class="head">Tables</h2>
-    <p>The element tags for Tables are &lt;table&gt;&lt;/table&gt; to define the table. &lt;tr&gt;&lt;/tr&gt; for the table row each time, &lt;th&gt;&lt;/th&gt; for the table headings, and &lt;td&gt;&lt;/td&gt; for the things inside.</p>
-    <p>Tables are used for when people wanted organize data.</p>
+    <p><b>Syntax:</b>&lt;table&gt;&lt;/table&gt;, &lt;tr&gt;&lt;/tr&gt;, &lt;th&gt;&lt;/th&gt;, &lt;td&gt;&lt;/td&gt;</p>
+    <p>The element tags for Tables are &lt;table&gt;&lt;/table&gt; to define the table. &lt;tr&gt;&lt;/tr&gt; for the table row each time, &lt;th&gt;&lt;/th&gt; for the table headings, and &lt;td&gt;&lt;/td&gt; for the things inside. Tables are used for when people wanted organize data.</p>
     <table style="width:100%">
     <div class="example">
-    <p><b>Example:</b></p>
+    <p><b>Rendering:</b></p>
     <tr>
-      <th>Firstname</th>
-      <th>Lastname</th> 
-      <th>Age</th>
+      <th class="hf">First name</th>
+      <th class="hf">Last name</th> 
+      <th class="hf">Age</th>
     </tr>
     <tr>
       <td>Jill</td>
@@ -340,10 +398,9 @@
       <td>94</td>
     </tr>
     </table>
-    </div>
     <br>
     <div>
-      <a href="https://www.w3schools.com/html/html_tables.asp">w3schools-Tables</a>
+      <b>W3Schools Reference</b> | <a href="https://www.w3schools.com/html/html_tables.asp">Tables</a>
     </div>
     <br>
     <a href="#PH">Back to the Top</a>
@@ -356,18 +413,17 @@
 
 
     <h2 id="P12" class="head">Blocks</h2>
-    <p>The block element tag is &lt;div&gt;&lt;/div&gt;.</p>
+    <p><b>Syntax: </b>&lt;div&gt;&lt;/div&gt;.</p>
     <p>Blocks are elements that directly affect the website, but allows you to group elements together so that you can jut group that whole group.</p>
     <div class="example">
-    <p><b>Example:</b><br>BOB is my friend. With the div tag, I can make BOB is red and my friend blue.</p>
-    <div class="ch" style="color:red">BOB is</div>
-    <div class="ch" style="color:blue">my friend</div>
+    <p><b>Rendering:</b><br>BOB is my friend. With the div tag, I can make BOB is red and my friend blue.</p>
+    <div class="non" style="color:red">BOB is</div>
+    <div class="non" style="color:blue">my friend</div>
     </div>
     <br>
     <div>
-      <a href="https://www.w3schools.com/html/html_blocks.asp">w3schools-Blocks</a>
+      <b>W3Schools Reference</b> | <a href="https://www.w3schools.com/html/html_blocks.asp">Blocks</a>
     </div>
     <br>
-    <a href="#PH">Back to the Top</a>
-  </body>
+    <a href="#PH">Back to the Top</a>  </body>
 </html>
