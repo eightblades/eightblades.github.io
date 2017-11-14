@@ -3,20 +3,23 @@ img {
     height: auto;
 }
 h1 {
-    color: black;
-    text-align: center;
-    padding-top: 50px;
-    height: 100px;
-    border-style:solid;
-    border-color:black;
+	color: black;
+	text-align: center;
+	padding-top: 50px;
+	height: 100px;
+	border-style:solid;
+	border-color:black;
 }
 h2{
 	color:#00BCFF;
 	padding-left:50px;
 }
+a{
+	font-size: 18px;
+}
 p{
 	padding-left:50px;
-    padding-right:50px;
+	padding-right:50px;
 }
 body {
     background-color: #E3E3E3;
