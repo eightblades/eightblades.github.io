@@ -1,19 +1,53 @@
 h1 {
-    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
     color: white;
     text-align: center;
     padding-top: 50px;
     height: 100px;
     font-family: 'Catamaran';
-    
-}
-img{
-  width:100%;
-  height:auto;
 }
 p{
-margin-left:50px;
-margin-right:50px;
+  font-family: Philosopher;
+}
+.header{
+  font-family: 'Spectral SC', serif;
+}
+h2{
+ margin-left: 50px;
+ color: #FFB833;
+ font-size: 200%;
+}
+h3{
+  margin-left:22.5%;
+  margin-right:22.5%;
+}
+.non{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.bh{
+  color: #FFB833;
+}
+.rh{
+  color: #ED4028;
+}
+.sh{
+  color: #96D711;
+}
+.img{
+  width: 55%;
+  height:auto;
+  margin-left: 22.5%;
+}
+.tti{
+}
+img{
+  width:95%;
+  height:auto;
+  margin-left: 2.5%;
+}
+p{
+  margin-left:22.5%;
+  margin-right:22.5%;
 }
 body {
     background-color: white;
@@ -42,6 +76,7 @@ body {
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.5s;
+    overflow-y: auto;
 }
 .sidenav a {
     padding: 8px 8px 8px 32px;
@@ -50,6 +85,7 @@ body {
     color: #818181;
     display: block;
     transition: 0.3s
+
 }
 .sidenav a:hover, .offcanvas a:focus{
     color: #f1f1f1;
@@ -92,4 +128,23 @@ body {
     .column.side, .column.middle {
         width: 100%;
     }
+}
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid #ddd;  
+    text-align: center;
+    padding:5px 5px;
+}
+th{
+  color: white;
+  font-size: 18px;
+  background-color: #B4F029;
+  padding: 5px 5px 5px;
+  font-family: 'Spectral SC', serif;
+}
+td{
+  background-color: white;
+  width:25%;
 }
