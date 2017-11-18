@@ -5,6 +5,9 @@ h1 {
     height: 100px;
     font-family: 'Catamaran';
 }
+.center{
+  text-align: center;
+}
 p{
   font-family: Philosopher;
 }
@@ -29,6 +32,9 @@ h3{
 }
 .rh{
   color: #ED4028;
+}
+.nh{
+  color: #36F3E8;
 }
 .sh{
   color: #96D711;
@@ -64,6 +70,7 @@ body {
     x-index: 0;
     margin: 6px 0;
     transition: 0.4s;
+    
 }
 .sidenav {
     height: 100%;
@@ -136,6 +143,8 @@ table, th, td {
     border: 1px solid #ddd;  
     text-align: center;
     padding:5px 5px;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 th{
   color: white;
@@ -147,4 +156,20 @@ th{
 td{
   background-color: white;
   width:25%;
+}
+.table{
+  border: none;
+  margin-left: 15.5%;
+  margin-right: 15.5%;
+}
+.th{
+  background-color: white;
+  color: black;
+  border: none;
+  border-bottom: solid 3px black
+}
+.td{
+  border: none;
+  text-align: left;
+  width: 23%;
 }
